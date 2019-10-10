@@ -1,0 +1,288 @@
+/* CSS Document */
+
+/*Browser and Body*/
+html {
+	height: 100%;
+	
+}
+
+body{
+	width: 90%;
+	height: 90%;
+	margin: 2% auto;
+	
+	position: relative;
+}
+
+
+/*Section*/
+.section {
+	display: block;
+}
+#top{
+	width: 75%;
+	height: 10%;
+	position: absolute;
+	left: 10%;
+	transition: 0.5s;
+	
+}
+
+
+#left{
+	width: 10%;
+	height: 100%;
+	transition: 0.5s;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#right {
+	width: 15%;
+	height: 100%;
+	
+	position: absolute;
+	top: 0px;
+	left: 85%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	transition: 0.5s;
+}
+
+#bottom{
+	width: 75%;
+	height: 90%;
+	
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	
+	display: flex;
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-flow: row wrap;
+	
+}
+
+#bottom-main{
+	display: flex;
+	width: 55%;
+	height: 53%;
+	position: absolute;
+	bottom: 10%;
+	right: 0%;
+	
+	justify-content: center;
+	align-items: center;
+
+	border: 2px solid white;
+	border-radius: 15px;
+
+}
+
+#bottom-main video {
+	width: 95%;
+	border-radius: 15px;
+}
+
+.bottomNav {
+	height: 10%;
+	min-height: 80px;
+	max-height: 80px;
+	flex: 1 1 200px;		
+	cursor: pointer;
+	position: relative;	
+	top: 5%;
+
+	
+}
+
+#bottom > section:first-of-type{
+	margin-left: 2%;	
+}
+
+
+#bottom > section:nth-of-type(4){
+	margin-right: 2%;
+}
+
+
+#right-child {
+	width: 200px;
+	height: 400px;	
+	max-height: 400px;
+	min-height: 400px;
+	
+	min-width: 200px;
+	max-width: 200px;
+	
+	
+	position: relative;
+	
+}
+
+
+#right > section > section {
+	width: 143px;
+	height: 283px;
+	
+	
+	max-height: 283px;
+	min-height: 283px;
+	
+	min-width: 143px;
+	max-width: 143px;
+		
+	position: absolute;
+	top: 60px;
+	right: 0px;
+	
+	flex-grow: 0;
+	flex-shrink: 0;
+	
+		
+}
+
+
+#right > section > section > section {
+	width: 100%;
+	height: 100%;
+	
+
+}
+
+/*Home Link*/
+#left a:first-of-type {	
+	margin: auto;
+	width: 40%;
+	height: 15%;
+	position: relative;
+}
+
+#left a:first-of-type img {	
+	width: 70%;
+	position: absolute;
+	bottom: 10%;
+	left: 15%;
+}
+
+/*Facebook and Instagram Link*/
+
+.LogoImage {
+	display: block;
+	width: 100%;
+	margin: 20% auto;
+}
+
+.LogoImage img {
+	display: block;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/*Navigation List*/
+#right a{
+	display: block;
+}
+
+#right nav {
+	width: 200px;
+	height: 400px;	
+	max-height: 400px;
+	min-height: 400px;
+	
+	
+	min-width: 200px;
+	max-width: 200px;
+		
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#right li {
+	position: absolute;
+	display: block;
+}
+
+#right li:first-of-type{
+	top: 5%;
+	right: 1%;
+}
+
+#right li:nth-of-type(2){
+	top: 8%;
+	right: 25%; 
+}
+
+#right li:nth-of-type(3){
+	top: 15%;
+	right: 50%; 
+}
+
+#right li:nth-of-type(4){
+	top: 25%;
+	right: 68%;
+}
+
+#right li:nth-of-type(5){
+	top: 37%;
+	right: 77%;
+}
+
+#right li:nth-of-type(6){
+	top: 50%;
+	right: 77%;
+}
+
+#right li:nth-of-type(7){
+	top: 63%;
+	right: 68%;
+}
+
+#right li:nth-of-type(8){
+	top: 75%;
+	right: 50%;
+}
+
+#right li:nth-of-type(9){
+	top: 82%;
+	right: 25%;
+}
+
+#right li:last-of-type{
+	top: 85%;
+	right: 1%;
+}
+
+/*Paragraph*/
+#right p{	
+	width: 90%;
+	height: 60%;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.title1{
+	}
+
+.title2{
+	width: 80%;
+	position: absolute;
+	top: 0%;	
+	
+}
+
+
+

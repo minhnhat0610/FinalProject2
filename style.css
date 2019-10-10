@@ -1,0 +1,198 @@
+/*Browser and Body*/
+@font-face{
+	font-family: Roboto;
+	src: url("Roboto/Roboto-Regular.ttf") format('truetype');	
+}
+
+@font-face{
+	font-family: 'Drop The Game';
+	src: url("Drop the Game - TTF.ttf") format('truetype');	
+}
+
+@font-face{
+	font-family: Roboto;
+	src: url("Roboto/Roboto-Light.ttf") format('truetype');
+	font-weight: lighter;
+}
+
+
+html {
+	background-image: url("Cory.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	display: block;
+}
+
+body{
+	border: 0.2em solid white;
+	border-radius: 1.5em;
+}
+
+/*Section*/
+body section {
+	overflow: auto;
+}
+
+
+#right > section > section {
+	border-left: 3px solid white;
+	border-top-left-radius: 9em;
+	border-bottom-left-radius: 9em;
+
+}
+
+#right > section > section > section {
+	background-image: url("Cory2.jpg") , url("Cory2.jpg");
+	background-blend-mode: overlay;
+	border-top-left-radius: 9em;
+	border-bottom-left-radius: 9em;
+	filter: blur(40px);
+}
+
+.bottomNav {
+	border-right: 2px solid white;
+	overflow: hidden;
+	
+	transition: 0.5s;
+}
+
+#bottom-main {
+	transition: 0.5s;
+}
+
+#bottom > section:nth-of-type(4){
+	border: none;		
+}
+
+/*Top Header*/
+#top{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+#top p{
+	color: white;
+	font-family: 'Drop The Game', sans-serif;
+	font-size: 2.5em;
+	margin: 0;
+	line-height: 200%;
+	
+}
+
+/*Home Link*/
+#left a:first-of-type {	
+	display: block;
+	border-bottom: 2px solid white;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+}
+
+
+
+/*Navigation List*/
+#right li {
+	list-style-type: none;
+	display: block;
+	
+}
+
+#right a {
+	text-decoration: none;
+	color: white;
+	font-size: 2.5em;	
+}
+
+#right a:hover{
+	transition: 1.5s;
+	color: rgba(0,0,0,0.76);
+}
+
+
+
+
+/*#bottom > section:hover{
+	border-left: 2px solid white;
+	border-top: 2px solid white;;
+	border-bottom: 2px solid white;
+	border-radius: 15px;
+	
+	width: auto;
+	height: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	
+}*/
+
+/*#bottom > section:last-of-type:hover{
+	border: 2px solid white;
+	border-radius: 15px;
+}*/
+
+
+
+/*Paragraph*/
+#right p{
+	color: white;
+	
+	font-size: 2em;	
+	font-family: Roboto, sans-serif;
+	font-weight: lighter;
+
+}
+
+
+.title1{
+	display: block;
+	margin-left: 10%;
+	margin-right: 10%;	
+	color: white;
+	text-align: center;
+	font-family: Roboto;	
+	font-size: 1.5em;
+	border: 2px solid white;
+	border-radius: 10px;
+	
+	transition: 0.5s;
+}
+
+.title2{
+	display: block;
+	margin-left: 10%;
+	margin-right: 10%;	
+	color: white;
+	text-align: center;
+	font-family: Roboto;	
+	font-size: 1.5em;
+	border: 2px solid white;
+	border-radius: 10px;
+	
+	transition: 0.5s;
+}
+
+.content1{
+	display: block;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: white;
+	text-align: center;
+	font-family: Roboto;	
+	font-size: 1em;
+
+
+}
+.content2 {	
+	display: block;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: white;
+	text-align: center;
+	font-family: Roboto;	
+	font-size: 1.2em;
+
+}
+
+
